@@ -116,7 +116,7 @@ end;
 procedure TfrmMain.btnPascalSampleClick(Sender: TObject);
 begin
   url_Open_In_Browser
-    ('https://github.com/DeveloppeurPascal/librairies/tree/master/samples/RTL.CryptDecrypt/IDBCryptDecryptSample');
+    ('https://github.com/DeveloppeurPascal/librairies/tree/master/samples/RTL.CryptDecrypt/IDBCryptSample');
 end;
 
 procedure TfrmMain.btnRefreshCodeClick(Sender: TObject);
@@ -176,7 +176,7 @@ begin
     mmoPascal.Lines.add(s);
     mmoPascal.Lines.add('// sample of use available at');
     mmoPascal.Lines.add
-      ('// https://github.com/DeveloppeurPascal/librairies/tree/master/samples/RTL.CryptDecrypt/IDBCryptDecryptSample');
+      ('// https://github.com/DeveloppeurPascal/librairies/tree/master/samples/RTL.CryptDecrypt/IDBCryptSample');
   end;
 end;
 
