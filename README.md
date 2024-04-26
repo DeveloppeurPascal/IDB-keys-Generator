@@ -1,10 +1,10 @@
-# ICB keys generator
+# IDB keys generator
 
 [Cette page en français.](LISEZMOI.md)
 
 Generator of a set of positive or negative values to generate a key to be used with a basic encryption and decryption algorithm by adding to the bytes of a buffer.
 
-If you're developing under Delphi or Pascal in general, you can use these blocks with the TOlfCryptDecrypt.ICBCrypt and TOlfCryptDecrypt.ICBDecrypt functions in the [Olf.RTL.CryptDecrypt](https://github.com/DeveloppeurPascal/librairies/blob/master/src/Olf.RTL.CryptDecrypt.pas) unit.
+If you're developing under Delphi or Pascal in general, you can use these blocks with the TOlfCryptDecrypt.IDBCrypt and TOlfCryptDecrypt.IDBDecrypt functions in the [Olf.RTL.CryptDecrypt](https://github.com/DeveloppeurPascal/librairies/blob/master/src/Olf.RTL.CryptDecrypt.pas) unit.
 
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
@@ -20,11 +20,11 @@ If you use this software regularly and are satisfied with it, you are invited to
 
 [Buy a license](FFF)
 
-You can also [visit the software website](https://icbkeysgenerator.olfsoftware.fr/) to find out more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
+You can also [visit the software website](https://idbkeysgenerator.olfsoftware.fr/) to find out more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
 
 ## Source code installation
 
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/ICB-keys-Generator).
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/IDB-keys-Generator).
 
 This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
 
@@ -48,7 +48,7 @@ Certain elements included in this repository may be subject to third-party usage
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/ICB-keys-Generator) and [open a new issue](https://github.com/DeveloppeurPascal/ICB-keys-Generator/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/IDB-keys-Generator) and [open a new issue](https://github.com/DeveloppeurPascal/IDB-keys-Generator/issues).
 
 If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
 

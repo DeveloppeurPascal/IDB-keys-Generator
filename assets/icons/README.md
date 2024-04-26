@@ -1,6 +1,6 @@
-# ICB Keys Generator icons
+# IDB Keys Generator icons
 
-The icons for [ICB Keys Generator](https://icbkeysgenerator.olfsoftware.fr/) has been created with [Pic Mob Generator](https://picmobgenerator.olfsoftware.fr/). It contains licensed material. Don't use them outside this project.
+The icons for [IDB Keys Generator](https://idbkeysgenerator.olfsoftware.fr/) has been created with [Pic Mob Generator](https://picmobgenerator.olfsoftware.fr/). It contains licensed material. Don't use them outside this project.
 
 ## List of external SVG elements
 
