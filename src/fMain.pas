@@ -33,8 +33,8 @@
 /// https://github.com/DeveloppeurPascal/IDB-keys-Generator
 ///
 /// ***************************************************************************
-/// File last update : 2024-08-05T21:27:03.935+02:00
-/// Signature : efb285c753186b0364b8eb6089dfa37cc5a26c8c
+/// File last update : 2024-08-07T08:10:26.000+02:00
+/// Signature : f1084fbdaa26b04b0ae04bee571d8a9f141bbf62
 /// ***************************************************************************
 /// </summary>
 
