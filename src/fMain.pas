@@ -109,6 +109,7 @@ implementation
 {$R *.fmx}
 
 uses
+  FMX.DialogService,
   u_urlOpen,
   Olf.RTL.Params,
   Olf.RTL.CryptDecrypt;
@@ -121,8 +122,8 @@ var
 begin
   randomize;
   sKeySize := FKeySize.ToString;
-  InputQuery('Key size', ['How many values do you want for this key ?'],
-    [sKeySize],
+  tdialogservice.InputQuery('Key size',
+    ['How many values do you want for this key ?'], [sKeySize],
     procedure(const AResult: TModalResult; const AValues: array of string)
     var
       i: integer;
