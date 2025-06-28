@@ -1,4 +1,4 @@
-object dmLogo: TdmLogo
+object dmAboutBoxLogo: TdmAboutBoxLogo
   Height = 480
   Width = 640
   object imgLogo: TImageList
@@ -134,16 +134,16 @@ object dmLogo: TdmLogo
               7EFFBEA4160F27A136064A36074970FBAFE1C1AC6AA336B7B97FE81BC1D8589C
               F65EB2EAFF003C9EB70CED39F41B0000000049454E44AE426082}
             FileName = 
-              'C:\Users\patrickpremartin\Documents\Embarcadero\Studio\Projets\I' +
-              'DBKeysGenerator\assets\icons\IDBKeysGeneratorIcon-256x256.png'
+              'C:\Dev\IDB-keys-Generator\assets\icons\IDBKeysGeneratorIcon-256x' +
+              '256.png'
           end>
-        Name = 'IDBKeysGeneratorIcon-256x256'
+        Name = 'StarterKitDefaultIcon-256x256'
       end>
     Destination = <
       item
         Layers = <
           item
-            Name = 'IDBKeysGeneratorIcon-256x256'
+            Name = 'StarterKitDefaultIcon-256x256'
             SourceRect.Right = 256.000000000000000000
             SourceRect.Bottom = 256.000000000000000000
           end>

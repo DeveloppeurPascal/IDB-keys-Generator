@@ -1,9 +1,9 @@
-(* C2PP
+ï»¿(* C2PP
   ***************************************************************************
 
   IDB Keys Generator
 
-  Copyright 2024-2025 Patrick Prémartin under AGPL 3.0 license.
+  Copyright 2024-2025 Patrick PrÃ©martin under AGPL 3.0 license.
 
   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -33,34 +33,42 @@
   https://github.com/DeveloppeurPascal/IDB-keys-Generator
 
   ***************************************************************************
-  File last update : 2025-05-23T11:27:48.920+02:00
-  Signature : 7954ffd50cb7d32671fd45e1d6d81b3b963f0d8e
+  File last update : 2025-06-28T19:12:34.000+02:00
+  Signature : 5f494f11df4cfe19f5f9270e6d222385829420c6
   ***************************************************************************
 *)
 
-unit uDMLogo;
+unit uConfigHelpers;
 
 interface
 
 uses
-  System.SysUtils, System.Classes, System.ImageList, FMX.ImgList;
+  uConfig;
 
 type
-  TdmLogo = class(TDataModule)
-    imgLogo: TImageList;
+  TConfigHelpers = class helper for tconfig
   private
-    { Déclarations privées }
+  private
+    function GetIsChecked(Language: String): boolean;
+    procedure SetIsChecked(Language: String; const Value: boolean);
   public
-    { Déclarations publiques }
+    property IsChecked[Language: String]: boolean read GetIsChecked
+      write SetIsChecked;
   end;
-
-var
-  dmLogo: TdmLogo;
 
 implementation
 
-{%CLASSGROUP 'FMX.Controls.TControl'}
+{ TConfigHelpers }
 
-{$R *.dfm}
+function TConfigHelpers.GetIsChecked(Language: String): boolean;
+begin
+  result := GetParams.GetValue('Language.' + Language, True);
+end;
+
+procedure TConfigHelpers.SetIsChecked(Language: String; const Value: boolean);
+begin
+  GetParams.SetValue('Language.' + Language, Value);
+  Save;
+end;
 
 end.
